@@ -1,10 +1,19 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    position: relative;
+}
+
 .logo {
     color: #999;
 }
 
-.container {
+.page .container {
     position: relative;
-    height: 100%;
+    padding-bottom: 60px;
 }
 
 .sidebar {
@@ -12,10 +21,11 @@
     background-color: #fafafa;
     right: 0;
     top: 30px;
-    bottom: 30px;
+    bottom: 60px;
     left: 75%;
     padding-left: 10px;
     border-radius: 10px;
+    min-height: 100px;
 }
 
 .posts {
@@ -43,27 +53,14 @@
 .post .infopanel_wrapper {
     margin-top: 10px;
 }
-body, html {
-    height: 100%;
-    min-height: 100%;
-    margin: 0;
-    padding: 0;
-}
 
-.page {
-    margin: 0;
-    min-height: 100%
-}
 .footer {
-    background-color: #fafafa;
-    height: 100%;
-    margin: -100px auto;
-
+    background-color: #eee;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
-
-
-
-
 
 
 
