@@ -17,11 +17,10 @@
                         <div class="author">
                             <a title="Автор текста" href="">Anonymous</a>
                         </div>
-                        <div class="comments">
-                            <a title="Читать комментарии" href="http://habrahabr.ru/post/215091/#comments">Комментариев: <span class="all">21</span> </a>
+                        <div class="infopanel-comments">
+                            <a title="Читать комментарии" href="{{ post.get_absolute_url }}#comments">Комментариев: <span class="all">21</span> </a>
                         </div>
                     </div>
-                    <!-- <div class="clear"></div> -->
                 </div>
             </div>
         {% empty %}

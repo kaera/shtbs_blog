@@ -12,6 +12,12 @@ body {
     margin-left: 20px;
 }
 
+/* TODO: снести */
+.glyphicon-white {
+    color: #ccc;
+    margin-left: 20px;
+}
+
 .navbar {
     border-radius: 0;
 }
@@ -32,8 +38,8 @@ body {
     border-radius: 10px;
     min-height: 100px;
 }
-.sidebar .nav .nav-list {
-    margin-top: 20 px;
+.sidebar .nav.nav-list {
+    margin-top: 20px;
 }
 
 .posts {
@@ -58,7 +64,7 @@ body {
     color: #999;
 }
 
-.post .infopanel_wrapper {
+.comments {
     margin-top: 10px;
 }
 
@@ -75,6 +81,10 @@ body {
 
 
 /* копипаста с хабра */
+
+.infopanel_wrapper {
+    margin-top: 10px;
+}
 
 .infopanel {
     display: inline-block;
@@ -107,22 +117,22 @@ body {
 }
 
 .infopanel .author a,
-.infopanel .comments a {
+.infopanel-comments a {
     font-size:9px;
     color:#CF0000;
     text-decoration:none;
 }
 
 .infopanel .author a:hover,
-.infopanel .comments a:hover {
+.infopanel-comments a:hover {
     color:#f17d7d;
 }
 
-.infopanel .comments a {
+.infopanel-comments a {
     padding-left: 17px;
 }
 
-.infopanel .comments {
+.infopanel-comments {
     float:left;
     line-height:27px;
     margin-left:17px;

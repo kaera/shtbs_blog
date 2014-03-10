@@ -11,8 +11,8 @@
             <div class="navbar navbar-inverse">
                 <div class="navbar-inner">
                     <div class="container">
-                        <h2 class="logo">Blog Star Team </h2>
-                            <i class="glyphicon glyphicon-home icon-white"> </i> 
+                        <h1 class="logo">Blog Star Team</h1>
+                            <i class="glyphicon glyphicon-home glyphicon-white"></i>
                             <a href="{% url 'list' %}" class="">Home</a>
                     </div>
                 </div>
@@ -22,27 +22,28 @@
         <section class='page'>
             <div class="container">
                 <aside class='sidebar'>
-                    <!-- <h2>Сайдбар</h2> -->
                     <ul class="nav nav-list">
-  <li class="nav-header">
-  </li>
-  <li class="active"> 
-    <a href="{% url 'list' %}">
-    <i class="glyphicon glyphicon-home"></i>
-    Home</a>
-  </li>
-  <li>
-    <a href="#">
-    <i class="glyphicon glyphicon-list"></i>
-    Poll</a>
-  </li>
-  <li>
-  <a href="#">
-    <i class="glyphicon glyphicon-user"></i>
-    Contacts</a>
-  </li>
-</ul>
-</aside>
+                        <li class="nav-header"></li>
+                        <li class="active">
+                            <a href="{% url 'list' %}">
+                                <i class="glyphicon glyphicon-home"></i>
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="glyphicon glyphicon-list"></i>
+                                Poll
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="glyphicon glyphicon-user"></i>
+                                Contacts
+                            </a>
+                        </li>
+                    </ul>
+                </aside>
                 {% block content %}Empty page{% endblock %}
             </div>
         </section>
