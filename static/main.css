@@ -9,6 +9,11 @@ body {
 
 .logo {
     color: #999;
+    margin-left: 20px;
+}
+
+.navbar {
+    border-radius: 0;
 }
 
 .page .container {
@@ -26,6 +31,9 @@ body {
     padding-left: 10px;
     border-radius: 10px;
     min-height: 100px;
+}
+.sidebar .nav .nav-list {
+    margin-top: 20 px;
 }
 
 .posts {
