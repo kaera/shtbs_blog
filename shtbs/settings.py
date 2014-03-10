@@ -35,8 +35,11 @@ INSTALLED_APPS = (
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'django.contrib.sites',
     'django.contrib.staticfiles',
     'blog',
+    'disqus',
+    'south',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -52,6 +55,8 @@ ROOT_URLCONF = 'shtbs.urls'
 
 WSGI_APPLICATION = 'shtbs.wsgi.application'
 
+DISQUS_API_KEY = 'FUpuuF8pYakO597RUL6xY1Ra86p89MuW1H9arz4qGbad45kbbCPdhXvVEBabLJRh'
+DISQUS_WEBSITE_SHORTNAME = 'kaerablog'
 
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
@@ -90,3 +95,4 @@ STATICFILES_DIRS = (
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
+SITE_ID = 1

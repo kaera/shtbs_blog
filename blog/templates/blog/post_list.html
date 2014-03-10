@@ -8,7 +8,7 @@
         {% for post in object_list %}
             <div class='post'>
                 <div class="published">{{ post.date }}</div>
-                <h2><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h2>
+                <h2><a href="{{ post.get_absolute_url }}#disqus_thread">{{ post.title }}</a></h2>
                 <div class="post-content">{{ post.content }}</div>
 
                 <div class="infopanel_wrapper">
